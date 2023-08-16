@@ -10,7 +10,8 @@ pipeline{
       steps{
         sh '/usr/share/maven/bin/mvn Test'
       }
+    }
+  }
 
   }
   
-}
